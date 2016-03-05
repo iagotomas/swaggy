@@ -1,0 +1,6 @@
+{
+	swaggerUrl : "swagger definition url",
+	jsonObject : {"User defined object"},
+	validate : { valid:true, message:"" }
+
+}

@@ -1,0 +1,45 @@
+{
+  "name": "swaggy",
+  "version": "1.0.0",
+  "description": "Swagger Model Validator UI",
+  "main": "src/index.js",
+  "keywords": [
+    "swagger",
+    "validator",
+    "model"
+  ],
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1",
+    "swagger-client": "^2.1.11",
+    "swagger-model-validator": "^2.0.7"
+  },
+  "devDependencies": {
+    "babel-core": "~6.5.2",
+    "babel-loader": "~6.2.3",
+    "babel-preset-es2015": "~6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "immutable": "^3.7.6",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.4",
+    "react-addons-test-utils": "^0.14.7",
+    "react-hot-loader": "^1.3.0",
+    "react-tools": "^0.13.3",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "author": "Iago Tomas",
+  "license": "ISC"
+}
